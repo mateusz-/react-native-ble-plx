@@ -1,9 +1,9 @@
 // @flow
 
-import type { device } from './BleTypes'
+import type { devices } from './BleTypes'
 
 export type bleState = {
-  devices: device[],
+  devices: devices,
   selectedDeviceUUID: ?string,
   selectedServiceUUID: ?string,
   selectedCharacteristicUUID: ?string,
