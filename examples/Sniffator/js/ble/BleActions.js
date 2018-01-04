@@ -97,12 +97,12 @@ export type action =
   | changeDeviceState
   | updateServices
   | updateCharacteristics
-  // | writeCharacteristic
-  // | readCharacteristic
-  // | monitorCharacteristic
-  // | selectService
-  // | selectCharacteristic
-  // | pushError
-  // | popError
-  // | executeTransaction
-  // | completeTransaction
+  | writeCharacteristic
+  | readCharacteristic
+  | monitorCharacteristic
+  | selectService
+  | selectCharacteristic
+  | pushError
+  | popError
+  | executeTransaction
+  | completeTransaction
